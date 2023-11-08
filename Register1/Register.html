@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Registration Form</title>
+    <script>
+        function validateForm() {
+            var password1 = document.getElementById("password1").value;
+            var password2 = document.getElementById("password2").value;
+
+            if (password1 !== password2) {
+                alert("Sorry, Confirm Password Does not Match Original");
+                return false;
+            }
+        }
+    </script>
+</head>
+<body>
+    <form action="process_registration.php" method="post" onsubmit="return validateForm()">
+        <label for="surname">Surname:</label>
+        <input type="text" name="surname" required><br>
+
+        <label for="firstname">First Name:</label>
+        <input type="text" name="firstname" required><br>
+
+        <label for="phone">Phone:</label>
+        <input type="text" name="phone" required><br>
+
+        <label for="email">Email:</label>
+        <input type="email" name="email" required><br>
+
+        <label for="username">Username:</label>
+        <input type="text" name="username" required><br>
+
+        <label for="occupation">Occupation:</label>
+        <input type="text" name="occupation" required><br>
+
+        <label for="password1">Password:</label>
+        <input type="password" name="password1" id="password1" required><br>
+
+        <label for="password2">Confirm Password:</label>
+        <input type="password" name="password2" id="password2" required><br>
+
+        <label for="squestion">Security Question:</label>
+        <input type="text" name="squestion" required><br>
+
+        <label for="sanswer">Security Answer:</label>
+        <input type="text" name="sanswer" required><br>
+
+        <input type="submit" name="submit" value="Register">
+    </form>
+</body>
+</html>
+
