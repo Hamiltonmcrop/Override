@@ -1,0 +1,55 @@
+body
+{
+    background-color: beige;
+}
+
+.login-form
+{
+    margin: 10% auto;
+    max-width: 400px;
+    padding: 8px;
+    border: 2px solid darkgreen;
+    border-radius: 8px;
+    background-color: #e2eaf2; 
+}
+.login-form .label
+{
+    text-align: center;
+    font-weight: bold;
+}
+.login-form input
+{
+    background-color: transparent;
+    border: 3px solid black;
+    border-radius: 10px;
+    text-align: center;
+    font-weight: bold;
+}
+.login-form input:focus
+{
+    background-color: black;
+    border: 3px solid black;
+    color: white;
+}
+
+.form-div
+{
+    margin: 3% auto;
+    max-width: 80%;
+    padding: 8px;
+    border: 2px solid darkgreen;
+    border-radius: 8px;
+    background-color: #e2eaf2;
+}
+
+.form-div .label
+{
+    text-align: center;
+    font-weight: bold;
+}
+
+.btn-login
+{
+    margin: 1% auto;
+    width: 100%;
+}
