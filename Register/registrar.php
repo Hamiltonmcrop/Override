@@ -41,7 +41,7 @@ if(isset($_POST["submit"])){
     //Check for Duplicate Registration
     if(file_exists('database/'. $username . ".json")){
         echo "<h2 style='color:red;'><center>Duplicate Registration Form</center></h2>";
-        echo "<h3><center><a href='index.php' style='color:red;text-decoration:none;'>Back to Login</a></center></h3>";
+        echo "<h3><center><a href='login.html' style='color:red;text-decoration:none;'>Back to Login</a></center></h3>";
     } else {
         
         //file_put_contents('database/' . $filename . ".txt", json_encode($filename));
@@ -51,7 +51,7 @@ if(isset($_POST["submit"])){
         //Showing Success Message
         echo "<h2 style='color:green;'><center>Registration Successful</center></h2>";
         echo "<h3><center>Your Username is: $username</center></h3>";
-        echo "<h3><center><a href='index.php' style='color:red;text-decoration:none;'>Back to Login</a></center></h3>";
+        echo "<h3><center><a href='login.html' style='color:red;text-decoration:none;'>Back to Login</a></center></h3>";
     }
 }
 
