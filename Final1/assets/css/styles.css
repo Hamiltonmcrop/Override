@@ -1,0 +1,59 @@
+body {
+    background-color: #f5f5dc; /* AntiqueWhite */
+}
+
+.login-container {
+    margin: 15% auto; /* Increased margin for better centering */
+    max-width: 350px; /* Slightly reduced width */
+    padding: 16px;
+    border: 2px solid #006400; /* DarkGreen */
+    border-radius: 12px;
+    background-color: #d3e0ea; /* Lighter blue-gray */
+}
+
+.login-container .title {
+    text-align: center;
+    font-weight: bolder; /* Slightly bolder text */
+    color: #006400; /* DarkGreen */
+}
+
+.login-container input {
+    background-color: #f0f8ff; /* AliceBlue */
+    border: 3px solid #000; /* Black */
+    border-radius: 8px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.login-container input:focus {
+    background-color: #000; /* Black */
+    border: 3px solid #000; /* Black */
+    color: #fff; /* White */
+}
+
+.form-wrapper {
+    margin: 5% auto; /* Increased margin */
+    max-width: 70%; /* Slightly wider */
+    padding: 12px;
+    border: 2px solid #006400; /* DarkGreen */
+    border-radius: 10px;
+    background-color: #d3e0ea; /* Lighter blue-gray */
+}
+
+.form-wrapper .subtitle {
+    text-align: center;
+    font-weight: bolder; /* Slightly bolder text */
+    color: #006400; /* DarkGreen */
+}
+
+.submit-btn {
+    margin: 2% auto; /* Increased margin */
+    width: 100%;
+    background-color: #006400; /* DarkGreen */
+    color: #fff; /* White */
+    padding: 8px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
