@@ -31,7 +31,7 @@ if(isset($_SESSION['username'])){
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<title>Zuri Login Page</title>
 		<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet">
-		<link rel="stylesheet" href="assets/css/styles.css">
+		<link rel="stylesheet" href="styles.css">
 	</head>
 	<body>
 		<div class="container">
